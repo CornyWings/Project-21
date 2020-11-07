@@ -18,6 +18,7 @@ function setup() {
   bullet= createSprite(50,200,50,20);
   bullet.shapeColor=  "white";
   wall=createSprite(1200,200,thickness,height/2);
+  bullet.velocityX= speed;
 
  deformation=0.5 * weight * speed* speed/22500;
 
